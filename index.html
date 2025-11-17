@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writings.dev - Curated Articles for Developers</title>
+
+    <meta name="description" content="Discover curated technical articles on JavaScript, DevOps, Cloud, Terraform, Architecture, and Scalability. Essential reads for busy developers.">
+    <meta name="author" content="Mariana Marin">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header-container">
+        <a href="#" class="logo">writings.dev</a>
+
+        <button class="mobile-menu-toggle" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="header-nav" aria-label="Main navigation">
+            <ul>
+                <li><a href="#">categories</a></li>
+                <li><a href="#">articles</a></li>
+                <li><a href="#">about</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <img src="Media/logo.svg" alt="Site logo">
+        <h1><em>Writings for Developers</em></h1>
+        <p class="subtitle"><strong>Curated collection of articles for busy developers</strong></p>
+        <hr class="divider">
+    </section>
+
+    <!-- MAIN -->
+    <main class="main-container">
+
+        <!-- CATEGORY FILTER NAV -->
+        <nav class="main-nav" aria-label="Category filters">
+            <div class="view-controls">
+                <button aria-label="Grid view">
+                    <img src="Media/grid-icon.svg" alt="Grid view icon">
+                </button>
+                <button aria-label="List view">
+                    <img src="Media/list-icon.svg" alt="List view icon">
+                </button>
+            </div>
+
+            <div class="category-dropdown">
+                <button class="category-dropdown-btn" aria-expanded="false">
+                    <span>Filter by Category</span>
+                    <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1L6 6L11 1" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </button>
+                <ul class="category-dropdown-menu">
+                    <li><button href="#">JavaScript</button></li>
+                    <li><button href="#">DevOps</button></li>
+                    <li><button href="#">Cloud</button></li>
+                    <li><button href="#">Terraform</button></li>
+                    <li><button href="#">Architecture</button></li>
+                    <li><button href="#">Scalability</button></li>
+                    <li><button href="#">Explainers</button></li>
+                </ul>
+            </div>
+
+            <ul class="category-list-desktop">
+                <li><button href="#">JavaScript</button></li>
+                <li><button href="#">DevOps</button></li>
+                <li><button href="#">Cloud</button></li>
+                <li><button href="#">Terraform</button></li>
+                <li><button href="#">Architecture</button></li>
+                <li><button href="#">Scalability</button></li>
+                <li><button href="#">Explainers</button></li>
+            </ul>
+        </nav>
+
+        <!-- ARTICLES GRID -->
+        <section class="articles-container">
+
+            <!-- tarjeta 1 -->
+            <article class="article-card">
+                <header>
+                    <img src="/DIA-9-CHECKPOINT/Media/article-one-image.png"
+                         alt="Whale partially breaching the ocean surface under a clear sky">
+                </header>
+                
+                <h2>Build continuous integration pipelines with GitHub Actions</h2>
+
+                <p>GitHub actions provide a really powerful way to integrate continuous integration and delivery into
+                    your applications.</p>
+
+                <footer>
+                    <time datetime="2022-06-24">June 24, 2022</time>
+                    <span aria-hidden="true">•</span>
+                    <span>DevOps</span>
+                </footer>
+            </article>
+            <!-- tarjeta 2 -->
+            <article class="article-card">
+                <header>
+                <img src="/DIA-9-CHECKPOINT/Media/article-two-image.png" alt="Green snake coiled around a branch with bright scales against a dark background">
+                </header>
+                
+                <h2>Python for the Absolute beginners</h2>
+                
+                <p>Python is the most popular programming language out there and it is used for so many different
+                    industries.</p>
+
+                <footer>
+                    <time datetime="2024-06-10">June 24, 2022</time>
+                    <span aria-hidden="true">•</span>
+                    <span>DevOps</span>
+                </footer>
+            </article>
+            <!-- tarjeta 3 -->
+            <article class="article-card">
+                <header>
+                <img src="/DIA-9-CHECKPOINT/Media/article-three-image.png" alt="Colorful geometric illustration with 3D shapes forming an abstract tunnel">
+                </header>
+                
+                <h2>Docker from Zero to Hero</h2>
+
+                <p>Learn what is Docker and how Docker is used in the whole software development process.</p>
+                
+                <footer>
+                    <time datetime="2024-06-10">June 24, 2022</time>
+                    <span aria-hidden="true">•</span>
+                    <span>DevOps</span>
+                </footer>
+            </article>
+            <!-- tarjeta 4 -->
+            <article class="article-card">
+                <header>
+                <img src="/DIA-9-CHECKPOINT/Media/article-four-image.png" alt="">
+                </header>
+                
+                <h2>Build continuous integration pipelines with GitHub Actions</h2>
+
+                <p>GitHub actions provide a really powerful way to integrate continuous integration and delivery into
+                    your applications.</p>
+
+                <footer>
+                    <time datetime="2024-06-10">June 24, 2022</time>
+                    <span aria-hidden="true">•</span>
+                    <span>DevOps</span>
+                </footer>
+            </article>
+            <!-- tarjeta 5 -->
+            <article class="article-card">
+                <header>
+                <img src="/DIA-9-CHECKPOINT/Media/article-five-image.png" alt="">
+                </header>
+                
+                <h2>Build continuous integration pipelines with GitHub Actions</h2>
+
+                <p>GitHub actions provide a really powerful way to integrate continuous integration and delivery into
+                    your applications.</p>
+
+                <footer>
+                    <time datetime="2024-06-10">June 24, 2022</time>
+                    <span aria-hidden="true">•</span>
+                    <span>DevOps</span>
+                </footer>
+            </article>
+            <!-- tarjeta 6 -->
+            <article class="article-card">
+                <header>
+                <img src="/DIA-9-CHECKPOINT/Media/article-six-image.png" alt="">
+                </header>
+                
+                <h2>Build continuous integration pipelines with GitHub Actions</h2>
+
+                <p>GitHub actions provide a really powerful way to integrate continuous integration and delivery into
+                    your applications.</p>
+
+                <footer>
+                    <time datetime="2024-06-10">June 24, 2022</time>
+                    <span aria-hidden="true">•</span>
+                    <span>DevOps</span>
+                </footer>
+            </article>
+            <!-- tarjeta 7 -->
+            <article class="article-card">
+                <header>
+                <img src="/DIA-9-CHECKPOINT/Media/article-seven-image.png" alt="">
+                </header>
+                
+                <h2>Build continuous integration pipelines with GitHub Actions</h2>
+
+                <p>GitHub actions provide a really powerful way to integrate continuous integration and delivery into
+                    your applications.</p>
+
+                <footer>
+                    <time datetime="2024-06-10">June 24, 2022</time>
+                    <span aria-hidden="true">•</span>
+                    <span>DevOps</span>
+                </footer>
+            </article>
+            <!-- tarjeta 8 -->
+            <article class="article-card">
+                <header>
+                <img src="/DIA-9-CHECKPOINT/Media/article-eight-image.png" alt="">
+                </header>
+                
+                <h2>Build continuous integration pipelines with GitHub Actions</h2>
+
+                <p>GitHub actions provide a really powerful way to integrate continuous integration and delivery into
+                    your applications.</p>
+
+                <footer>
+                    <time datetime="2024-06-10">June 24, 2022</time>
+                    <span aria-hidden="true">•</span>
+                    <span>DevOps</span>
+                </footer>
+            </article>
+            <!-- tarjeta 9 -->
+            <article class="article-card">
+                <header>
+                <img src="/DIA-9-CHECKPOINT/Media/article-nine-image.png" alt="">
+                </header>
+                
+                <h2>Build continuous integration pipelines with GitHub Actions</h2>
+
+                <p>GitHub actions provide a really powerful way to integrate continuous integration and delivery into
+                    your applications.</p>
+
+                <footer>
+                    <time datetime="2024-06-10">June 24, 2022</time>
+                    <span aria-hidden="true">•</span>
+                    <span>DevOps</span>
+                </footer>
+            </article>
+        </section>
+
+        <!-- paginacion -->
+        <nav class="pagination" aria-label="Pagination">
+            <ul>
+                <li><a href="#">Previous</a></li>
+                <li><a href="#">1</a></li>
+                <li><a href="#" class="pagination-active">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">Next</a></li>
+            </ul>
+        </nav>
+
+        <section class="article-form">
+            <h2>Create Your Article</h2>
+            <p>Share your knowledge with the community</p>
+
+            <form>
+                <label for="image-file">Article Image</label>
+                <input type="file" id="image-file" accept="image/*" required>
+
+                <label for="title">Article Title</label>
+                <input type="text" id="title" placeholder="Build continuous integration pipelines..." maxlength="80" required>
+
+                <label for="description">Description</label>
+                <textarea id="description" placeholder="Write a brief description of your article..." rows="4" maxlength="200" required></textarea>
+
+                <div class="form-row">
+                    <div class="form-field">
+                        <label for="date">Publication Date</label>
+                        <input type="date" id="date" required>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="category">Category</label>
+                        <select id="category" required>
+                            <option value="" hidden>Select a category</option>
+                            <option value="javascript">JavaScript</option>
+                            <option value="devops">DevOps</option>
+                            <option value="cloud">Cloud</option>
+                            <option value="terraform">Terraform</option>
+                            <option value="architecture">Architecture</option>
+                            <option value="scalability">Scalability</option>
+                            <option value="explainers">Explainers</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button type="reset">Clear Form</button>
+                <button type="submit">Create Article</button>
+            </form>
+        </section>
+
+        <hr class="divider">
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-brand">
+            <a href="#" class="footer-logo">writings.dev</a>
+            <address>by @kamrify</address>
+        </div>
+
+        <nav class="footer-social" aria-label="Social media">
+            <a href="#">
+                <img src="Media/twitter-logo.svg" alt="Twitter logo">
+                Follow @writingsdev
+            </a>
+        </nav>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
